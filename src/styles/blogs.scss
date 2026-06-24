@@ -3,5 +3,10 @@
 }
 
 #blogsContainer img {
-	margin-left: 5rem;
+	margin-left: min(5rem, 5vw);
+	width: 90%;
+}
+
+h2 {
+	font-size: min(1.2rem, 6vw + 0.2rem)
 }
