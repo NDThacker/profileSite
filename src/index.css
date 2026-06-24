@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
 
 :root {
 	font-family: "Aldrich", Inter, system-ui;
@@ -14,23 +14,21 @@
 body {
 	width: 100vw;
 	margin: 0;
-  background: linear-gradient(#C1AEBC, #FFFFFF);
-  background-repeat: no-repeat;
-  height: max(auto, 100vh);
+	background: linear-gradient(#c1aebc, #ffffff);
+	background-repeat: no-repeat;
+	height: max(auto, 100vh);
 }
 
 @media screen and (max-width: 768px) {
-  :root {
-    font-size: 0.6rem;
-  }
-  img {
-    transform: scale(1, 0.7);
-  }
-  #mainLine {
-    height: 250vh !important;
-  }
-
-
+	:root {
+		font-size: 0.6rem;
+	}
+	img {
+		transform: scale(1, 0.7);
+	}
+	#mainLine {
+		height: 250vh !important;
+	}
 }
 
 /* a {

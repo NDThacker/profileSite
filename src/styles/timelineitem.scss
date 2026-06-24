@@ -1,20 +1,24 @@
 #artifact img {
-    width: clamp(30vw, 32vw, 40vw);
-    height: 32vh;
-    border: 4px solid darkgray;
-    border-radius: 1rem;
-    box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.4);
-  }
+	width: clamp(30vw, 32vw, 40vw);
+	height: 32vh;
+	border: 4px solid darkgray;
+	border-radius: 1rem;
+	box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.4);
+}
 
-  #artifact p, #artifact h4{
-    margin-bottom: 0.8rem;
-  }
+#artifact p,
+#artifact h4 {
+	margin-bottom: 0.8rem;
+}
 
-  @media screen and (max-width: 768px) {
-    #artifact p, #artifact h4 {
-      margin-bottom: 0;
-    }
-    #artifact img {
-      margin-top: -2rem;
-    }
-  }
+@media screen and (max-width: 768px) {
+
+	#artifact p,
+	#artifact h4 {
+		margin-bottom: 0;
+	}
+
+	#artifact img {
+		margin-top: -2rem;
+	}
+}

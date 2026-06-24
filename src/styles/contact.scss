@@ -1,57 +1,66 @@
 .icon {
-    font-size: 1.6rem;
+	font-size: 1.6rem;
 }
 
 .icon:hover {
-    transform: rotateZ(360deg) scale(1.2, 1.2);
-    transition: transform 0.5s ease;
+	transform: rotateZ(360deg) scale(1.2, 1.2);
+	transition: transform 0.5s ease;
 }
 
 #socialLinks {
-    display: flex;
-    margin: 1rem auto;
-    gap: 2rem;
-    justify-content: center;
+	display: flex;
+	margin: 1rem auto;
+	gap: 2rem;
+	justify-content: center;
 }
 
 #contactContainer {
-    margin: 4rem auto;
-    text-align: center;
+	margin: 4rem auto;
+	text-align: center;
 }
 
 article {
-    margin-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 
 #details {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
 }
 
 a[href="https://cal.com/naman-thacker"] {
-    margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 .leetcode {
-    width: 1.6rem; 
-    height: 1.6rem;
+	width: 1.6rem;
+	height: 1.6rem;
 }
+
+
 
 
 /* Cursor */
-.cursor{
-    // border-right: 2px solid rgba(0, 0, 0, .75);
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
+.cursor {
+	// border-right: 2px solid rgba(0, 0, 0, .75);
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
 }
+
 /* Animation */
 .typewriter-animation {
-  animation: 
-    typewriter 2s steps(50) 1s 1 normal both;
+	animation:
+		typewriter 2s steps(50) 1s 1 normal both;
 }
+
 @keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 100%;
+	}
 }

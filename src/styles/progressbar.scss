@@ -16,6 +16,7 @@ $b: 0.15em;
 	height: $h;
 	font-size: larger;
 	background: linear-gradient(#171717, #272626);
+
 	&::-webkit-progress-bar {
 		background: transparent;
 	}
@@ -27,8 +28,9 @@ $b: 0.15em;
 	&::-moz-progress-bar {
 		@include val();
 	}
+
 	--fill: linear-gradient(#e74c59, transparent 85%),
-		linear-gradient(90deg, #aa92d4, #6c3bc2);
+	linear-gradient(90deg, #aa92d4, #6c3bc2);
 }
 
 #progressHeader {
